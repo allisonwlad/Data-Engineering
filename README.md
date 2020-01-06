@@ -21,4 +21,4 @@ spark-streaming-kafka-0-8_2.11:2.4.4.jar
 # requirements.txt
 Dependencias do Python
 
-! [alt text] (https://i1.wp.com/sparkbyexamples.com/wp-content/uploads/2019/03/spark-structured-streaming-kafka.png)
+![alt text](https://i1.wp.com/sparkbyexamples.com/wp-content/uploads/2019/03/spark-structured-streaming-kafka.png)
