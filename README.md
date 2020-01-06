@@ -7,3 +7,13 @@ Infra para subir os servicos necessarios para rodar o projeto, contem:
     - Kafka (porta 9092)
     - MongoDB (porta 21017)
     - MongoDB Express (porta 8081)
+    
+# TwitterProducer
+Cria um streaming com o Twitter e envia os dados para o topico `twitter` no Kafka
+
+# TwitterConsumer
+Cria um Consumidor Kafka e inica um streaming via Spark Streaming, recebe os dados, filtra e transforma o streaming e insere no MongoDB.
+Depende dos jars
+mongo-spark-connector_2.11-2.4.1.jar
+mongo-java-driver-3.12.0.jar 
+spark-streaming-kafka-0-8_2.11:2.4.4.jar
