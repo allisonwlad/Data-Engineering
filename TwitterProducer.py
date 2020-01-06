@@ -4,10 +4,10 @@ from tweepy import Stream
 from kafka import SimpleProducer, KafkaClient
 
 # dados da api
-api_key = 'uqdNgpJHQTXoacRwf0AxmukRU'
-api_secret= 'm1EfuZIVlpixBDho6BOdpu8FhsA5dj6HVsvR9GF2u6saJa4Asl'
-access_token = '1596057121-PX8LeQFivq8w1d46bsSgep2jD57PpMUTfaZLKdD'
-secret_token = 'miIL7Ep4VYAPyLQmNr49H7DhSHLb5wApyAuKkI4u9LiAV'
+api_key = <api key>
+api_secret= <api secret>
+access_token = <api token>
+secret_token = <api secret token>
 
 # classe para envio das mensagens ao Kafka
 class StdOutListener(StreamListener):
