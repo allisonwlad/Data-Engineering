@@ -17,3 +17,6 @@ Depende dos jars
 mongo-spark-connector_2.11-2.4.1.jar
 mongo-java-driver-3.12.0.jar 
 spark-streaming-kafka-0-8_2.11:2.4.4.jar
+
+# requirements.txt
+Dependencias do Python
