@@ -29,4 +29,4 @@ if __name__ == "__main__":
     # inicia o stream com o twitter
     stream = Stream(auth, listener)
     # assuntos pesquisados
-    stream.filter(track=['itau','bolsonaro'])
+    stream.filter(track=['Python','Django'])
